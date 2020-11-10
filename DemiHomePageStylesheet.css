@@ -1,0 +1,326 @@
+body {
+  background-color: #DFC9BB;
+    width: 1080;
+}
+h1 {color: white}
+.container { 
+    width: 1080px;
+    margin: auto; /*centering the page*/
+}
+h2 {color: #F3B2BA;
+    font-size: 20px;
+    background-color: white;
+}
+p {
+    font-size: 15px;
+}
+.navbar{
+    
+}
+.navbar ul{
+    text-align: left;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+.navbar ul li a:hover{
+    color:black;
+    transform: scale(1.5);
+    font-size: 34px;
+}
+.hover_img{
+    width: 20%;
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.container-home li{
+    list-style: none;
+}
+.hover_img:hover{
+    transform: scale(1.5);
+    list-style: none;
+}
+.images{
+    width;background-attachment: fixed;
+}
+.container-home {
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(Photos/demi%20header.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about > div{
+    padding: 20px;
+    text-align: left;
+    
+}
+.singles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.singles-grid > div{
+    text-align: left;
+    padding: 10px;
+    
+}
+.albums-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.albums-grid > div{
+    text-align: left;
+    padding: 10px; 
+}
+
+
+
+.container-music{
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(Photos/photoshoot.jpg);
+    background-size: 80%;
+    background-position: top;
+}
+
+
+.singles ul {
+    position: relative;
+    text-align: left 20%;
+}
+
+.singles ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.singles ul li a{
+     text-decoration: none;
+    font-size: 50px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.singles ul li a:hover{
+    color:#FFEE93;
+    transform: scale(1.5);
+    font-size: 66px;
+}
+.to-studio {
+    
+}
+.to-studio {
+    position: relative;
+    text-align: right;
+}
+
+.to-studio a{
+     text-decoration: none;
+    font-size: 40px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.to-studio a:hover{
+    color:#000000;
+    transform: scale(1.5);
+    font-size: 50px;
+}
+.to-singles {
+    position: relative;
+    text-align: right;
+}
+
+.to-singles a{
+     text-decoration: none;
+    font-size: 40px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.to-singles a:hover{
+    color:#000000;
+    transform: scale(1.5);
+    font-size: 50px;
+}
+.back {
+    position: relative;
+    text-align: right;
+    
+}
+.back a{
+     text-decoration: none;
+    font-size: 20px;
+    color: white;
+   
+}
+.Studio ul {
+    position: relative;
+    text-align: left 50%;
+    
+}
+
+.Studio ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.Studio ul li a{
+     text-decoration: none;
+    font-size: 50px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.Studio ul li a:hover{
+    color:#E0B1A1;
+    transform: scale(1.5);
+    font-size: 66px;
+}
+
+.container-career{
+    height: 100vh;
+    background-image: url(Photos/header%202.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.activism-page {
+    position: relative;
+    text-align: center; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.activism{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.activism a{
+    text-decoration: none;
+    font-size: 50px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.activism a:hover{
+    color:#7E91BF;
+    transform: scale(1.5);
+    font-size: 66px;
+}
+.activism-page ul {
+    position: relative;
+    text-align: left 20%;
+}
+
+.activism-page ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.activism-page ul li a{
+     text-decoration: none;
+    font-size: 50px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.activism-page ul li a:hover{
+    color:#FFEE93;
+    transform: scale(1.5);
+    font-size: 66px;
+}
+
+.tv{
+    position: relative;
+    text-align: left 50%;
+    
+}
+
+.tv{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+
+}
+
+.tv a{
+     text-decoration: none;
+    font-size: 50px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.tv  a:hover{
+    color:#BBEABC;
+    transform: scale(1.5);
+    font-size: 66px;
+}
+.tv-page {
+    position: relative;
+    text-align: center; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tv-page ul {
+    position: relative;
+    text-align: left 20%;
+}
+
+.tv-page ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.tv-page ul li a{
+     text-decoration: none;
+    font-size: 50px;
+    color: white; 
+    transition: all .5s ease;
+    transform-origin: center;
+}
+
+.tv-page ul li a:hover{
+    color:#FFEE93;
+    transform: scale(1.5);
+    font-size: 66px;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    padding-top: 10px;
+    position: relative;
+    padding-bottom: 10px;
+
+}
+
+
