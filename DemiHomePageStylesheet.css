@@ -208,7 +208,7 @@ p {
 
 .activism-page {
     position: relative;
-    text-align: center; 
+    text-align: left; 
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
